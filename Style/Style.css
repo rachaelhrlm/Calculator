@@ -1,0 +1,56 @@
+* {
+    font-size: 18px;
+    text-align: center;
+}
+
+.equation {
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 15px 50px;
+    margin: 5px;
+    margin-right: 25px;
+    
+}
+
+.digit {
+    background-color: #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.equal {
+    background-color: #0892d0;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.clear{
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.topbuffer {
+    height: 10vw;
+}
+.phpequation {
+    visibility: hidden;
+    display: none;
+}
