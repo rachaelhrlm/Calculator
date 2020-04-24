@@ -1,4 +1,8 @@
 function updateEquation($button) {
+    if (document.querySelector(".equation").innerHTML.indexOf("Error:") !== -1) {
+        document.querySelector(".equation").innerHTML = "";
+        document.querySelector(".phpequation").innerHTML = "";
+    }
     document.querySelector(".equation").innerHTML += $button;
     if ($button === "x") {
         document.querySelector(".phpequation").innerHTML += "*";
